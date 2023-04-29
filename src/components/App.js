@@ -18,7 +18,7 @@ function App() {
         <Route exact path="/login">
           <Login setIsLoggedIn={setIsLoggedIn} />
         </Route>
-        <Route exact path="/">
+        <Route exact path="/home">
           <Home isLoggedIn={isLoggedIn} />
         </Route>
       </Switch>
